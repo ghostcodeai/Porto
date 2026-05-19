@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AS- Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="logo">
+      
+      AHMAD<span>SALHA</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav-cta">Let's Talk</a></li>
+    </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+  </nav>
+
+  <!-- MOBILE NAV DRAWER -->
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#about" class="m-link">About</a>
+    <a href="#projects" class="m-link">Projects</a>
+    <a href="#skills" class="m-link">Skills</a>
+    <a href="#contact" class="m-cta m-link">Let's Talk</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">ENGINEER</div>
+
+    <div class="hero-left">
+      <span class="available-badge">
+        <span class="pulse"></span>
+        Available for opportunities
+      </span>
+
+      <div class="tw-line">
+        <span id="typewriter"></span><span class="tw-caret"></span>
+      </div>
+
+      <h1>
+        <span class="w1">Building things</span>
+        <span class="w2" data-text="that matter.">that matter.</span>
+        <span class="w3">and people remember.</span>
+      </h1>
+
+      <p class="hero-sub">
+        I'm a software engineer who turns complex problems into <strong style="color:var(--text);font-weight:600">clean, fast, and thoughtful code</strong>. Full-stack by trade, systems-thinker by nature — I care about craft as much as impact.
+      </p>
+
+      <div class="hero-btns">
+        <a href="#projects" class="btn-solid">
+          See my work
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#contact" class="btn-outline">Let's talk →</a>
+      </div>
+
+      <div class="scroll-hint">
+        <div class="scroll-line"></div>
+        Scroll to explore
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <div class="hero-card">
+        <div class="hero-card-glow"></div>
+        <div class="card-top">
+          <div class="avi">AS</div>
+          <div>
+            <div class="card-name">A Glimpse of me</div>
+            <div class="card-role">Full-Stack Engineer</div>
+          </div>
+        </div>
+        <div class="card-divider"></div>
+        <div class="card-stats">
+          <div class="stat-box">
+            <span class="stat-n" data-target="3" data-suffix="+">3+</span>
+            <span class="stat-l">Years exp.</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-n" data-target="12">12</span>
+            <span class="stat-l">Projects shipped</span>
+          </div>
+        </div>
+        <div class="chip-row">
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Python</span>
+          <span class="chip">PHP</span>
+          <span class="chip">JSON</span>
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">+</span>
+        </div>
+        <div class="status-row">
+          <div class="status-dot"></div>
+          Open to full-time &amp; contract roles
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECH STRIP -->
+  <div class="logo-strip">
+    <div class="strip-label">Technologies I work with daily</div>
+    <div class="strip-track">
+      <div class="tech-pill"><div class="tech-dot"></div>HTML</div>
+      <div class="tech-pill"><div class="tech-dot"></div>CSS</div>
+      <div class="tech-pill"><div class="tech-dot"></div>JavaScript</div>
+      <div class="tech-pill"><div class="tech-dot"></div>TypeScript</div>
+      <div class="tech-pill"><div class="tech-dot"></div>Python</div>
+      <div class="tech-pill"><div class="tech-dot"></div>PostgreSQL</div>
+      <div class="tech-pill"><div class="tech-dot"></div>PHP</div>
+      <div class="tech-pill"><div class="tech-dot"></div>JSON</div>
+      <div class="tech-pill"><div class="tech-dot"></div>C++</div>
+      <div class="tech-pill"><div class="tech-dot"></div>React JSC</div>
+      <div class="tech-pill"><div class="tech-dot"></div>React TYS</div>
+      <div class="tech-pill"><div class="tech-dot"></div>C#</div>
+      <div class="tech-pill"><div class="tech-dot"></div>PowerShell</div>
+      <div class="tech-pill"><div class="tech-dot"></div>HTML</div>
+      <div class="tech-pill"><div class="tech-dot"></div>CSS</div>
+      <div class="tech-pill"><div class="tech-dot"></div>JavaScript</div>
+      <div class="tech-pill"><div class="tech-dot"></div>TypeScript</div>
+      <div class="tech-pill"><div class="tech-dot"></div>Python</div>
+      <div class="tech-pill"><div class="tech-dot"></div>PostgreSQL</div>
+      <div class="tech-pill"><div class="tech-dot"></div>PHP</div>
+      <div class="tech-pill"><div class="tech-dot"></div>JSON</div>
+      <div class="tech-pill"><div class="tech-dot"></div>C++</div>
+      <div class="tech-pill"><div class="tech-dot"></div>React JSC</div>
+      <div class="tech-pill"><div class="tech-dot"></div>React TYS</div>
+      <div class="tech-pill"><div class="tech-dot"></div>C#</div>
+      <div class="tech-pill"><div class="tech-dot"></div>PowerShell</div>
+      
+    </div>
+  </div>
+
+  <!-- NUMBERS -->
+  <section class="numbers-section" id="numbers">
+    <div class="numbers-inner">
+      <div class="num-card reveal">
+        <div class="num-val"><span data-target="3" data-suffix="+">3+</span></div>
+        <div class="num-label">Years of experience</div>
+      </div>
+      <div class="num-card reveal reveal-d1">
+        <div class="num-val"><span data-target="12" data-suffix="+">12+</span></div>
+        <div class="num-label">Projects shipped</div>
+      </div>
+      <div class="num-card reveal reveal-d2">
+        <div class="num-val"><span data-target="3" data-suffix="+">3+</span></div>
+        <div class="num-label">Cross Functional work Experience</div>
+      </div>
+      <div class="num-card reveal reveal-d3">
+        <div class="num-val"><span data-target="99" data-suffix="%">99%</span></div>
+        <div class="num-label">Client satisfaction</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about-section" id="about">
+    <div class="about-grid">
+      <div>
+        <div class="sec-tag reveal">Who I am</div>
+        <h2 class="sec-title reveal reveal-d1">Builder.<br>Thinker.<br>Engineer.</h2>
+        <p class="about-body reveal reveal-d2">
+          I'm a software engineer who loves the <strong>entire stack</strong> — from architecting backends that handle millions of requests, to crafting frontends that feel instant. I care about clean abstractions, team culture, and shipping things that <strong>actually matter</strong>.
+        </p>
+        <p class="about-body reveal reveal-d3">
+          When I'm not in the code, I'm improving my B2B sales skills, Quota achivments and People interaction softskills.
+        </p>
+        <div class="tech-list reveal">
+          <span class="tech-li">TypeScript</span>
+          <span class="tech-li">React / Next.js</span>
+          <span class="tech-li">Node.js</span>
+          <span class="tech-li">Python / FastAPI</span>
+          <span class="tech-li">PostgreSQL</span>
+          <span class="tech-li">Redis</span>
+          <span class="tech-li">Docker / K8s</span>
+          <span class="tech-li">AWS / GCP</span>
+          <span class="tech-li">GraphQL</span>
+        </div>
+      </div>
+
+      <div class="xp-card reveal reveal-d2">
+        <div class="xp-label">Experience timeline</div>
+        <div class="tl">
+          <div class="tl-item">
+            <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+            <div>
+              <div class="tl-year">2024 – Present</div>
+              <div class="tl-role">B2B Account Manager</div>
+              <div class="tl-co">HP · Full-time</div>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-left"><div class="tl-dot dim"></div><div class="tl-line"></div></div>
+            <div>
+              <div class="tl-year">2023 – Present</div>
+              <div class="tl-role">Software Engineer</div>
+              <div class="tl-co">Freelancer</div>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-left"><div class="tl-dot dim"></div><div class="tl-line"></div></div>
+            <div>
+              <div class="tl-year">2023 – 2024</div>
+              <div class="tl-role">Customer Support Specialist</div>
+              <div class="tl-co">Teleperformance.Z Canon B2C</div>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-left"><div class="tl-dot dim"></div></div>
+            <div>
+              <div class="tl-year">2020 – 2023</div>
+              <div class="tl-role">Technical Advisor</div>
+              <div class="tl-co">Teleperformance.X Apple Support</div>
+            </div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-left"><div class="tl-dot dim"></div></div>
+            <div>
+              <div class="tl-year">2019-2023</div>
+              <div class="tl-role">B.Sc. Computer Science</div>
+              <div class="tl-co">University Of Essex</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects-section" id="projects">
+    <div class="projects-header">
+      <div>
+        <div class="sec-tag reveal">What I build</div>
+        <h2 class="sec-title reveal reveal-d1">Featured<br>projects</h2>
+      </div>
+      <a href="project.html" class="btn-outline reveal" style="font-size:.82rem;padding:.65rem 1.3rem;">Check the Pipeline ↗</a>
+    </div>
+    <div class="projects-grid">
+
+      <div class="proj-card reveal">
+        <div class="proj-card-shine"></div>
+        <div class="proj-num">01</div>
+        <div class="proj-thumb t1"><span>🚀</span></div>
+        <div class="proj-body">
+          <div class="proj-meta">
+            <span class="proj-tag">Full-Stack</span>
+            <span class="proj-year">Fulltime</span>
+          </div>
+          <div class="proj-name">Professional websites</div>
+          <div class="proj-desc">Interactive and luxurious well structured Websites to match your niche</div>
+          <div class="proj-stack">
+            <span class="proj-chip">Next.js</span>
+            <span class="proj-chip">TypeScript</span>
+            <span class="proj-chip">PostgreSQL</span>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="proj-card reveal reveal-d1">
+        <div class="proj-card-shine"></div>
+        <div class="proj-num">02</div>
+        <div class="proj-thumb t2"><span>⚡</span></div>
+        <div class="proj-body">
+          <div class="proj-meta">
+            <span class="proj-tag">Backend / API</span>
+            <span class="proj-year">Fulltime</span>
+          </div>
+          <div class="proj-name">Systems people need</div>
+          <div class="proj-desc">Systems that you need to evolve and make your life easier </div>
+          <div class="proj-stack">
+            <span class="proj-chip">Python</span>
+            <span class="proj-chip">FastAPI</span>
+            <span class="proj-chip">Redis</span>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="proj-card reveal reveal-d2">
+        <div class="proj-card-shine"></div>
+        <div class="proj-num">03</div>
+        <div class="proj-thumb t3"><span>🛠</span></div>
+        <div class="proj-body">
+          <div class="proj-meta">
+            <span class="proj-tag">Open Source</span>
+            <span class="proj-year">Fulltime</span>
+          </div>
+          <div class="proj-name">A combination of real and virtual </div>
+          <div class="proj-desc">Mixing knowledge and experience to ace outcomes. </div>
+          <div class="proj-stack">
+            <span class="proj-chip">TypeScript</span>
+            <span class="proj-chip">React</span>
+            <span class="proj-chip">AWS</span>
+          </div>
+          
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills-section" id="skills">
+    <div class="skills-inner">
+      <div class="sec-tag reveal">What I know</div>
+      <h2 class="sec-title reveal reveal-d1">Core skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-icon si-a">🖥</div>
+          <div class="skill-title">Frontend</div>
+          <div class="skill-items">React, Next.js, TypeScript, Tailwind, Framer Motion, Zustand</div>
+        </div>
+        <div class="skill-card reveal reveal-d1">
+          <div class="skill-icon si-b">⚙️</div>
+          <div class="skill-title">Backend</div>
+          <div class="skill-items">Node.js, Python, FastAPI, GraphQL, REST APIs, WebSockets</div>
+        </div>
+        <div class="skill-card reveal reveal-d2">
+          <div class="skill-icon si-c">🗄</div>
+          <div class="skill-title">Data &amp; Infra</div>
+          <div class="skill-items">PostgreSQL, Redis, MongoDB, Docker, Kubernetes, Terraform</div>
+        </div>
+        <div class="skill-card reveal reveal-d3">
+          <div class="skill-icon si-d">☁️</div>
+          <div class="skill-title">Cloud &amp; DevOps</div>
+          <div class="skill-items">AWS, GCP, CI/CD, GitHub Actions, Vercel, Monitoring</div>
+        </div>
+        <div class="skill-card reveal reveal-d3">
+          <div class="skill-icon si-d">💵</div>
+          <div class="skill-title">B2B Sales</div>
+          <div class="skill-items">Sales skills, Closing deals, Providing quality</div>
+        </div>
+        <div class="skill-card reveal reveal-d3">
+          <div class="skill-icon si-d">📝</div>
+          <div class="skill-title">Technical Support</div>
+          <div class="skill-items">Solving problems, Adapting Fast, Finding solutions</div>
+        </div>
+        <div class="skill-card reveal reveal-d3">
+          <div class="skill-icon si-d">😅</div>
+          <div class="skill-title">Humor</div>
+          <div class="skill-items">Yes I got some</div>
+        </div>
+        <div class="skill-card reveal reveal-d3">
+          <div class="skill-icon si-d">👻</div>
+          <div class="skill-title">Wisdom</div>
+          <div class="skill-items">Once a Smart man said...</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOVER GRID -->
+  <section class="grid-section">
+    <div class="grid-section-inner">
+      <div class="sec-tag reveal">How I work</div>
+      <h2 class="sec-title reveal reveal-d1">My approach</h2>
+      <div id="hoverGrid">
+        <div class="grid-item reveal">
+          <div class="grid-item-num">01</div>
+          <div class="grid-item-title">Think first, code second</div>
+          <div class="grid-item-text">I spend time understanding the problem before writing a single line. The best code is often the code you don't write.</div>
+        </div>
+        <div class="grid-item reveal reveal-d1">
+          <div class="grid-item-num">02</div>
+          <div class="grid-item-title">Ship small, iterate fast</div>
+          <div class="grid-item-text">I believe in tight feedback loops. Small, frequent releases beat long waterfall cycles every time.</div>
+        </div>
+        <div class="grid-item reveal reveal-d2">
+          <div class="grid-item-num">03</div>
+          <div class="grid-item-title">Performance is a feature</div>
+          <div class="grid-item-text">Every millisecond counts. I profile early, optimise with data, and never ship something slow.</div>
+        </div>
+        <div class="grid-item reveal">
+          <div class="grid-item-num">04</div>
+          <div class="grid-item-title">Tests are documentation</div>
+          <div class="grid-item-text">Well-written tests tell the story of your code. I write tests that explain intent, not just behaviour.</div>
+        </div>
+        <div class="grid-item reveal reveal-d1">
+          <div class="grid-item-num">05</div>
+          <div class="grid-item-title">Collaborate openly</div>
+          <div class="grid-item-text">The best ideas come from diverse perspectives. I share work early, give honest feedback, and learn constantly.</div>
+        </div>
+        <div class="grid-item reveal reveal-d2">
+          <div class="grid-item-num">06</div>
+          <div class="grid-item-title">Own the outcome</div>
+          <div class="grid-item-text">I care about the product, not just my part of it. When something breaks at 2am, I'm there fixing it.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section" id="contact">
+    <div class="contact-glow"></div>
+    <div class="contact-glow2"></div>
+    <div class="contact-bg-word">HELLO</div>
+    <div class="contact-inner">
+      <div class="contact-eyebrow reveal">
+        <span class="pulse"></span> Get in touch
+      </div>
+      <h2 class="contact-title reveal reveal-d1">
+        Let's build<br>
+        <span class="grad">something great.</span>
+      </h2>
+      <p class="contact-sub reveal reveal-d2">
+        Open to full-time roles, freelance work, and interesting collaborations. I respond to every message — don't be a stranger.
+      </p>
+      <div class="contact-btns reveal reveal-d3">
+        <a href="mailto:ahmad203salha@hotmail.com" class="btn-solid">Say hello ✉</a>
+        <a href="https://linkedin.com/in/αhmad-salha-463309268" class="btn-outline">LinkedIn ↗</a>
+      </div>
+      <div class="contact-socials reveal reveal-d4">
+        
+        
+        
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Designed &amp; built by <span class="ft-accent">Ahmad Salha</span></span>
+    <div class="ft-dots">
+      <div class="ft-dot"></div>
+      <div class="ft-dot"></div>
+      <div class="ft-dot"></div>
+    </div>
+    <span>Made with <span class="ft-accent">♥</span> · 2026</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
